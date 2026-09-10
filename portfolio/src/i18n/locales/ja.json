@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "私について",
+    "experience": "職務経歴",
+    "education": "学歴・資格",
+    "skills": "スキル",
+    "projects": "プロジェクト",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "role": "シニアフロントエンド / フルスタックエンジニア",
+    "location": "埼玉県",
+    "visa": "定住者ビザ（就労制限なし）",
+    "downloadCV": "履歴書をダウンロード",
+    "contactMe": "お問い合わせ",
+    "github": "GitHubプロフィール"
+  },
+  "about": {
+    "title": "私について",
+    "summary": "React、Angular、TypeScriptを使用したスケーラブルなUIアーキテクチャや再利用可能なデザインシステム構築、REST API統合において6年以上の経験を持つソフトウェアエンジニアです。",
+    "relocation": "現在埼玉県に在住し、就労制限のないビザを保有しています。日本国内外の革新的なチームへの貢献を目指しています。"
+  },
+  "sections": {
+    "experience": "職務経歴",
+    "education": "学歴",
+    "courses": "資格・研修",
+    "languages": "語学力",
+    "skills": "技術スキル",
+    "projects": "主要プロジェクト",
+    "contact": "お問い合わせ",
+    "backToProjects": "← プロジェクト一覧へ戻る",
+    "viewDetails": "詳細を見る",
+    "visitSite": "サイトを見る",
+    "viewGithub": "コードを見る"
+  }
+}

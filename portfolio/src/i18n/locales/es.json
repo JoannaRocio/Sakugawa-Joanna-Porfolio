@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "education": "Estudios y Certificaciones",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "role": "Senior Frontend / Full-Stack Engineer",
+    "location": "Saitama, Japón",
+    "visa": "Visa de Residente Permanente / Sin restricciones laborales",
+    "downloadCV": "Descargar CV",
+    "contactMe": "Contactar",
+    "github": "Perfil de GitHub"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "summary": "Ingeniera de software con más de 6 años de experiencia especializada en el desarrollo de arquitecturas UI escalables, sistemas de diseño reutilizables e integración de APIs REST con React, Angular y TypeScript.",
+    "relocation": "Actualmente radicada en Saitama, Japón, con pleno permiso de trabajo. Entusiasmada por integrarme a equipos tecnológicos locales e internacionales."
+  },
+  "sections": {
+    "experience": "Experiencia Laboral",
+    "education": "Educación",
+    "courses": "Cursos y Certificaciones",
+    "languages": "Idiomas",
+    "skills": "Habilidades Técnicas",
+    "projects": "Proyectos Destacados",
+    "contact": "Contacto",
+    "backToProjects": "← Volver a Proyectos",
+    "viewDetails": "Ver detalles",
+    "visitSite": "Ver Sitio En Vivo",
+    "viewGithub": "Ver Código"
+  }
+}
