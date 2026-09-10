@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import { profileData } from '../../data/profile';
+import { useProfile } from '../../hooks/useProfile';
 
 export const About = () => {
   const { t } = useTranslation();
+  const profileData = useProfile();
 
   return (
     <section id="about" className="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">
@@ -18,7 +19,7 @@ export const About = () => {
             <span className="text-slate-200 font-medium">{profileData.location}</span>
           </div>
           <div>
-            <span className="text-slate-500 block text-xs uppercase tracking-wider">Estado de Visa</span>
+            <span className="text-slate-500 block text-xs uppercase tracking-wider">{profileData.visaStatusTitle}</span>
             <span className="text-cyan-400 font-medium">{profileData.visaStatus}</span>
           </div>
         </div>

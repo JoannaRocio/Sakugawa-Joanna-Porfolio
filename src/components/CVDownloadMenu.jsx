@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { profileData } from '../data/profile';
+import { useProfile } from '../hooks/useProfile';
 
 export const CVDownloadMenu = () => {
   const { t } = useTranslation();
+  const profileData = useProfile();
   const [isOpen, setIsOpen] = useState(false);
 
   return (

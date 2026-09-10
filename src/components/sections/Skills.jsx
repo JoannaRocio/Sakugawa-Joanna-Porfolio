@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import { profileData } from '../../data/profile';
+import { useProfile } from '../../hooks/useProfile';
 
 export const Skills = () => {
   const { t } = useTranslation();
+  const profileData = useProfile();
 
   return (
     <section id="skills" className="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">

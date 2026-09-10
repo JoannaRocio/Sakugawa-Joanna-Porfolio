@@ -4,9 +4,15 @@ export const projectsData = [
     title: "OdontoTurno",
     shortDescription: "Dental appointment management system built as part of supervised professional practice.",
     fullDescription: "OdontoTurno is a full-featured web platform created to manage dental appointments, patient histories, and clinic schedules. Designed to streamline administrative workflows and provide patients with an intuitive booking experience.",
-    image: "/images/odonto-turno.png",
+    image: "/images/OdontoTurno_1.png",
+    gallery: [
+      "/images/OdontoTurno_1.png",
+      "/images/OdontoTurno_2.png",
+      "/images/OdontoTurno_3.png",
+      "/images/OdontoTurno_4.png"
+    ],
     demoUrl: "https://odonto-turno.up.railway.app/Home",
-    githubUrl: "https://github.com/JoannaRocio", // Placeholder link a tu GitHub personal
+    githubUrl: "https://github.com/JoannaRocio",
     technologies: ["React", "TypeScript", "REST API", "Tailwind CSS"],
     features: [
       "Online appointment scheduling and status tracking.",
@@ -21,9 +27,15 @@ export const projectsData = [
     title: "Banco Macro Online Banking UI Library",
     shortDescription: "Standardized component library and design system for Banco Macro's online banking web platform.",
     fullDescription: "A comprehensive UI component library built to unify and accelerate web development across Banco Macro's online banking features, maintaining strict accessibility and brand guidelines.",
-    image: "/images/banco-macro.png",
+    image: "/images/BancoMacro_1.png",
+    gallery: [
+      "/images/BancoMacro_1.png",
+      "/images/BancoMacro_2.png",
+      "/images/BancoMacro_3.png",
+      "/images/BancoMacro_4.png"
+    ],
     demoUrl: "https://www.macro.com.ar/home-page",
-    githubUrl: null, // Propiedad interna corporativa
+    githubUrl: null,
     technologies: ["React", "TypeScript", "Storybook", "SASS/SCSS", "Design Tokens", "Figma"],
     features: [
       "Modular and reusable UI component library.",
@@ -38,7 +50,13 @@ export const projectsData = [
     title: "Andina ART Web Platform",
     shortDescription: "Complete corporate website built from scratch matching high-fidelity Figma designs.",
     fullDescription: "Corporate website developed for Andina ART providing insurance details, client portals, and institutional information with strict delivery deadlines.",
-    image: "/images/andina-art.png",
+    image: "/images/AndinaART_1.png",
+    gallery: [
+      "/images/AndinaART_1.png",
+      "/images/AndinaART_2.png",
+      "/images/AndinaART_3.png",
+      "/images/AndinaART_4.png"
+    ],
     demoUrl: "https://www.andinaart.com.ar/",
     githubUrl: null,
     technologies: ["React", "Bootstrap", "SCSS", "Figma", "Responsive Web Design"],
@@ -54,7 +72,10 @@ export const projectsData = [
     title: "BCycle / Aventura Bike Sharing App",
     shortDescription: "Web & mobile features for a large-scale international bike-sharing system in the US.",
     fullDescription: "Enterprise application development and bug fixing for BCycle, supporting bike-sharing operations, user accounts, and real-time station management.",
-    image: "/images/bcycle.png",
+    image: "/images/Bcycle_1.png",
+    gallery: [
+      "/images/Bcycle_1.png"
+    ],
     demoUrl: "https://aventura.bcycle.com/",
     githubUrl: null,
     technologies: ["React", "ASP.NET", ".NET Core", "C#", "JavaScript", "HTML5", "CSS3", "SQL Server"],

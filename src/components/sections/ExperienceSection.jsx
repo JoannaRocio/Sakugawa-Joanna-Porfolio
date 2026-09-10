@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { profileData } from '../../data/profile';
+import { useProfile } from '../../hooks/useProfile';
 import { Briefcase, Calendar, MapPin } from 'lucide-react';
 
 export const ExperienceSection = () => {
   const { t } = useTranslation();
+  const profileData = useProfile();
 
   return (
     <section id="experience" className="max-w-6xl mx-auto px-6 py-20 border-t border-slate-900 relative">

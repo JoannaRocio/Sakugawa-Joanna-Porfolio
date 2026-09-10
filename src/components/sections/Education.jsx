@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import { profileData } from '../../data/profile';
+import { useProfile } from '../../hooks/useProfile';
 
 export const Education = () => {
   const { t } = useTranslation();
+  const profileData = useProfile();
 
   return (
     <section id="education" className="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">
@@ -29,7 +30,11 @@ export const Education = () => {
             {profileData.courses.map((course, i) => (
               <div key={i} className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 mb-3">
                 <h4 className="font-bold text-slate-200 text-sm">{course.title}</h4>
-                <p className="text-xs text-slate-400">{course.institution} • {course.year}</p>
+                <p className="text-xs text-slate-400">{course.institution} </p>
+                <div className="flex justify-between text-xs text-slate-400 pt-2">
+                  <span>{course.period}</span>
+                  <span className="text-teal-400 font-semibold">{course.status}</span>
+                </div>
               </div>
             ))}
           </div>

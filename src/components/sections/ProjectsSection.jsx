@@ -27,7 +27,17 @@ export const ProjectsSection = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-cyan-500/50 transition-all duration-300 overflow-hidden flex flex-col group hover:shadow-xl hover:shadow-cyan-500/5 backdrop-blur-md"
           >
-            <div className="p-8 flex-1 space-y-4">
+            {/* Captura de pantalla del proyecto */}
+            <div className="relative h-48 sm:h-56 overflow-hidden bg-slate-950 border-b border-slate-800/80">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+            </div>
+
+            <div className="p-6 sm:p-8 flex-1 space-y-4">
               <div className="flex items-start justify-between gap-4">
                 <h3 className="text-2xl font-bold text-white group-hover:text-cyan-400 transition-colors">
                   {project.title}
