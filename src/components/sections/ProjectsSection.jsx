@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { projectsData } from '../../data/projects';
 import { Link } from 'react-router-dom';
 import { FolderGit2, ExternalLink, ArrowRight } from 'lucide-react';
+import { useProjectsData } from '../../hooks/useProjectsData';
 
 export const ProjectsSection = () => {
   const { t } = useTranslation();
+  const projectsData = useProjectsData();
 
   return (
     <section id="projects" className="max-w-6xl mx-auto px-6 py-20 border-t border-slate-900">
@@ -14,7 +15,7 @@ export const ProjectsSection = () => {
           <FolderGit2 className="w-8 h-8 text-cyan-400" />
           <span>{t('sections.projects')}</span>
         </h2>
-        <p className="text-slate-400 text-sm mt-2">Selection of real production applications and design systems</p>
+        <p className="text-slate-400 text-sm mt-2">{t('sections.projectsSubtitle')}</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

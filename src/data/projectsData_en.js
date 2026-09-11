@@ -12,7 +12,7 @@ export const projectsData = [
       "/images/OdontoTurno_4.png"
     ],
     demoUrl: "https://odonto-turno.up.railway.app/Home",
-    githubUrl: "https://github.com/JoannaRocio",
+    githubUrl: "https://github.com/JoannaRocio/app-turnos",
     technologies: ["React", "TypeScript", "REST API", "Tailwind CSS"],
     features: [
       "Online appointment scheduling and status tracking.",

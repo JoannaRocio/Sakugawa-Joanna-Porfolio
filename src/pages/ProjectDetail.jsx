@@ -1,11 +1,12 @@
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { projectsData } from '../data/projects';
 import { ArrowLeft, ExternalLink, Code2, CheckCircle2 } from 'lucide-react';
+import { useProjectsData } from '../hooks/useProjectsData';
 
 export const ProjectDetail = () => {
   const { id } = useParams();
   const { t } = useTranslation();
+  const projectsData = useProjectsData();
   const project = projectsData.find((p) => p.id === id);
 
   if (!project) {

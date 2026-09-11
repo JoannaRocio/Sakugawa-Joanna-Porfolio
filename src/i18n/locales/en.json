@@ -11,6 +11,7 @@
   "hero": {
     "role": "Senior Frontend / Full-Stack Engineer",
     "location": "Saitama, Japan",
+    "available": "Available for new opportunities",
     "visa": "Long-Term Resident Visa — No Work Restrictions",
     "downloadCV": "Download CV",
     "contactMe": "Contact Me",
@@ -18,18 +19,20 @@
   },
   "about": {
     "title": "About Me",
-    "summary": "Software engineer with over 6 years of experience specializing in building scalable UI architectures, reusable design systems, and integrating REST APIs with React, Angular, and TypeScript.",
-    "relocation": "Currently based in Saitama, Japan with full work rights. Eager to contribute to innovative tech teams locally and globally."
+    "summary": "In June, I made the big move to Saitama, Japan (with full work authorization)! I’m super excited for this next step and ready to bring 100% of my energy to a great team. My focus right now is finding a place where I can dive in, work hard, tackle awesome challenges, and continuously grow alongside the company!",
+    "relocation": "Adaptable to team needs, driven to hard work, and focused on continuous professional growth."
   },
   "sections": {
     "experience": "Work Experience",
+    "experienceSubtitle": "6+ years of continuous engineering evolution",
     "education": "Education",
     "courses": "Courses & Certifications",
     "languages": "Languages",
     "skills": "Technical Skills",
     "projects": "Featured Projects",
+    "projectsSubtitle": "Selection of real production applications and design systems",
     "contact": "Get In Touch",
-    "backToProjects": "← Back to Projects",
+    "backToProjects": "Back to Projects",
     "viewDetails": "View Details",
     "visitSite": "Visit Live Site",
     "viewGithub": "View Code"

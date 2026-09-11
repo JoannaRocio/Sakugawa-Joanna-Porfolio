@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next';
-import { profiles } from '../data';
+import { projects } from '../data';
 
-export const useProfile = () => {
+export const useProjectsData = () => {
   const { i18n } = useTranslation();
   
   const currentLang = i18n.language ? i18n.language.split('-')[0] : 'en';
 
-  return profiles[currentLang] || profiles.en;
+  return projects[currentLang] || projects.en;
 };

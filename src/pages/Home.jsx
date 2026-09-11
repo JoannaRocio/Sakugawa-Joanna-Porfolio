@@ -50,15 +50,27 @@ export const Home = () => {
         <div className="max-w-6xl mx-auto text-center space-y-4">
           <h2 className="text-2xl font-bold text-white">{t('sections.contact')}</h2>
           <p className="text-slate-400 text-sm flex flex-wrap items-center justify-center gap-2">
-            <span className="inline-flex items-center gap-1.5 text-slate-300">
-              <MailIcon className="w-4 h-4 text-cyan-400 shrink-0" />
-              <span>{profileData.contact.email}</span>
-            </span>
-            <span>•</span>
-            <span className="inline-flex items-center gap-1.5 text-slate-300">
-              <PhoneIcon className="w-4 h-4 text-cyan-400 shrink-0" />
-              <span>{profileData.contact.phone}</span>
-            </span>
+          <a
+            href={`mailto:${profileData.contact.email}`}
+            className="inline-flex items-center gap-1.5 text-slate-300 hover:text-cyan-400 transition-colors"
+            title="Enviar correo"
+          >
+            <MailIcon className="w-4 h-4 text-cyan-400 shrink-0" />
+            <span>{profileData.contact.email}</span>
+          </a>
+
+      <span>•</span>
+
+      <a
+        href={`https://wa.me/${profileData.contact.phone.replace(/[^0-9]/g, '')}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-1.5 text-slate-300 hover:text-cyan-400 transition-colors"
+        title="Enviar WhatsApp"
+      >
+        <PhoneIcon className="w-4 h-4 text-cyan-400 shrink-0" />
+        <span>{profileData.contact.phone}</span>
+      </a>
           </p>
           <p className="text-xs text-slate-600">© 2026 Sakugawa Joanna Rocio. All rights reserved.</p>
         </div>

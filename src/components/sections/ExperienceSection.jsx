@@ -14,7 +14,7 @@ export const ExperienceSection = () => {
           <Briefcase className="w-8 h-8 text-cyan-400" />
           <span>{t('sections.experience')}</span>
         </h2>
-        <p className="text-slate-400 text-sm mt-2">6+ years of continuous engineering evolution</p>
+        <p className="text-slate-400 text-sm mt-2">{t('sections.experienceSubtitle')}</p>
       </div>
 
       <div className="relative border-l border-slate-800 ml-4 md:ml-6 space-y-12">

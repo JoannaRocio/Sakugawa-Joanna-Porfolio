@@ -5,7 +5,7 @@ export const profileData = {
   location: "埼玉県久喜市南栗橋、日本",
   contact: {
     email: "jrsakugawa@gmail.com",
-    phone: "070-9294-0470",
+    phone: "+81 70-9294-0470",
     github: "https://github.com/JoannaRocio",
     linkedin: null
   },

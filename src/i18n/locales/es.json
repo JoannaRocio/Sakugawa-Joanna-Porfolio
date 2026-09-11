@@ -19,18 +19,20 @@
   },
   "about": {
     "title": "Sobre mí",
-    "summary": "Especialista Frontend con más de 6 años de experiencia en el desarrollo de arquitecturas UI escalables, sistemas de diseño reutilizables e integración de APIs REST con React, Angular, TypeScript, .Net y Java.",
-    "relocation": "Actualmente radicada en Saitama, Japón, con pleno permiso de trabajo. Entusiasmada por integrarme a equipos tecnológicos locales e internacionales."
+    "summary": "En junio di el gran paso y me mudé a Saitama, Japón (con permiso de trabajo completo). Estoy súper entusiasmada por este nuevo paso y lista para dar el 100% de mi energía en un gran equipo. Mi objetivo ahora es encontrar un lugar donde pueda meterle con todo, trabajar duro, asumir desafíos geniales y crecer continuamente a la par de la empresa.",
+    "relocation": "Me adapto a las necesidades de la empresa, comprometida con el trabajo duro y enfocada en el crecimiento constante."
   },
   "sections": {
     "experience": "Experiencia Laboral",
+    "experienceSubtitle": "6+ años de continua evolución en ingeniería",
     "education": "Educación",
     "courses": "Cursos y Certificaciones",
     "languages": "Idiomas",
     "skills": "Habilidades Técnicas",
     "projects": "Proyectos Destacados",
+    "projectsSubtitle": "Selección de aplicaciones en producción real y sistemas de diseño",
     "contact": "Contacto",
-    "backToProjects": "← Volver a Proyectos",
+    "backToProjects": "Volver a Proyectos",
     "viewDetails": "Ver detalles",
     "visitSite": "Ver Sitio En Vivo",
     "viewGithub": "Ver Código"

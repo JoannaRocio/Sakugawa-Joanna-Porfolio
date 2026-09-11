@@ -26,21 +26,21 @@ export const CVDownloadMenu = () => {
             download="CV_Joanna_Sakugawa_English.pdf"
             className="block px-4 py-2.5 text-sm text-slate-200 hover:bg-slate-800 hover:text-cyan-400 transition-colors"
           >
-            🇬🇧 CV in English
+            CV in English
           </a>
           <a
             href={profileData.cvFiles.ja}
             download="CV_Joanna_Sakugawa_Japanese.pdf"
             className="block px-4 py-2.5 text-sm text-slate-200 hover:bg-slate-800 hover:text-cyan-400 transition-colors"
           >
-            🇯🇵 CV 日本語
+            CV 日本語
           </a>
           <a
             href={profileData.cvFiles.es}
             download="CV_Joanna_Sakugawa_Spanish.pdf"
             className="block px-4 py-2.5 text-sm text-slate-200 hover:bg-slate-800 hover:text-cyan-400 transition-colors"
           >
-            🇪🇸 CV en Español
+            CV en Español
           </a>
         </div>
       )}
