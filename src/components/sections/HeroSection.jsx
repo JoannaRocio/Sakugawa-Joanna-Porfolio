@@ -62,7 +62,7 @@ export const HeroSection = () => {
           </div>
 
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
-            {t('about.summary')}
+            {t('hero.summary')}
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-4">
